@@ -1,0 +1,4 @@
+require:
+  - wp-cli/browse-command.php
+@thecoffeecan.test:
+  ssh: vagrant:thecoffeecan.test:/var/www/html
