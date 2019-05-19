@@ -53,7 +53,7 @@ get_header();
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+<h1>Test</h1>
 <?php
 get_sidebar();
 get_footer();
