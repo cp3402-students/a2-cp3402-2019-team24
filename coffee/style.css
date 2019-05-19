@@ -67,7 +67,9 @@ html {
  */
 
 body {
-	margin: 0;
+	margin: 0 auto;
+        max-width: 1200px; 
+        
 }
 
 /**
@@ -404,10 +406,12 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
+        color: white;
 }
 
 p {
 	margin-bottom: 1.5em;
+        color: white;
 }
 
 dfn, cite, em, i {
@@ -469,7 +473,7 @@ html {
 }
 
 body {
-	background: #fff;
+	background: white;
 	/* Fallback for when there is no custom background color defined. */
 }
 
@@ -614,7 +618,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: greenyellow;
 }
 
 a:visited {
