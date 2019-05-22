@@ -1,18 +1,28 @@
 <?php
 /**
- * The template for displaying the footer
+ * The template for displaying the footer.
  *
  * Contains the closing of the #content div and all content after.
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package coffeeme
+ * @package Teamtwentyfour
  */
 
 ?>
 
 	</div><!-- #content -->
 
+<<<<<<< HEAD
+	<?php get_sidebar( 'footer' ); ?>
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-footer__wrap">
+			<?php
+			// Make sure there is a social menu to display.
+			if ( has_nav_menu( 'social' ) ) { ?>
+			<nav class="social-menu">
+=======
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'coffee' ) ); ?>">
@@ -22,11 +32,25 @@
 				?>
 			</a>
 			<span class="sep"> | </span>
+>>>>>>> 04419d1f403253c58c5dcd7fc8988ab5cb1ac674
 				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'coffee' ), 'coffee', '<a href="http://underscores.me/">team24</a>' );
+					wp_nav_menu( array(
+						'theme_location' => 'social',
+						'menu_class'     => 'social-links-menu',
+						'depth'          => 1,
+						'link_before'    => '<span class="screen-reader-text">',
+						'link_after'     => '</span>' . Teamtwentyfour_get_svg( array( 'icon' => 'chain' ) ),
+					) );
 				?>
-		</div><!-- .site-info -->
+			</nav><!-- .social-menu -->
+			<?php } ?>
+
+			<div class="site-info">
+			
+			<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+				
+			</div><!-- .site-info -->
+		</div><!-- .site-footer__wrap -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
