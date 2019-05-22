@@ -52,9 +52,7 @@ html {
 }
 
 body {
-	margin: 0 auto;
-        max-width: 1200px; 
-        
+	margin: 0;
 }
 
 article,
@@ -311,7 +309,6 @@ h5 {
 	font-size: 1.8em;
 }
 
-<<<<<<< HEAD
 h6 {
 	font-size: 1.6em;
 }
@@ -319,16 +316,6 @@ h6 {
 p {
 	margin-top: .5em;
 	margin-bottom: 1em;
-=======
-h1, h2, h3, h4, h5, h6 {
-	clear: both;
-        color: white;
-}
-
-p {
-	margin-bottom: 1.5em;
-        color: white;
->>>>>>> 04419d1f403253c58c5dcd7fc8988ab5cb1ac674
 }
 
 dfn, cite, em, i {
@@ -405,11 +392,7 @@ html {
 }
 
 body {
-<<<<<<< HEAD
-	background: #fcb900;
-=======
-	background: white;
->>>>>>> 7aef89c7e9c1641ed455088631612e73b8b0d472
+	background: #fff;
 	/* Fallback for when there is no custom background color defined. */
 }
 
@@ -589,11 +572,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-<<<<<<< HEAD
 	color: #000;
-=======
-	color: greenyellow;
->>>>>>> 04419d1f403253c58c5dcd7fc8988ab5cb1ac674
 }
 
 a:visited {

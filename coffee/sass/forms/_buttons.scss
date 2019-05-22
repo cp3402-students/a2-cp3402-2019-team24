@@ -4,15 +4,14 @@ input[type="reset"],
 input[type="submit"] {
 	border: 2px solid;
 	border-color: black;
-	border-radius: 3px;
 	background: transparent;
 	color: black;
-	font-family: $front_sans;
+	font-family: $font__sans;
 	@include font-size(1);
 	line-height: 1;
 	padding: .5em 1em;
 
-	&:hover 
+	&:hover ,
 	&:active,
 	&:focus {
 		background: white;

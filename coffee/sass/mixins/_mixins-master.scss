@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Rem output with px fallback
 @mixin font-size($sizeValue: 1) {
 	font-size: ($sizeValue * 20) * 1px;
@@ -23,33 +22,3 @@
 @mixin clearfix-after() {
 	clear: both;
 }
-=======
-// Rem output with px fallback
-@mixin font-size($sizeValue: 1) {
-	font-size: ($sizeValue * 20) * 1px;
-<<<<<<< HEAD
-	font-size: $sizeValue * 1.5rem;
-=======
-	font-size: $sizeValue * 1.25rem;
->>>>>>> 7aef89c7e9c1641ed455088631612e73b8b0d472
-}
-
-// Center block
-@mixin center-block {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-// Clearfix
-@mixin clearfix() {
-	content: "";
-	display: table;
-	table-layout: fixed;
-}
-
-// Clear after (not all clearfix need this also)
-@mixin clearfix-after() {
-	clear: both;
-}
->>>>>>> 7042557e0964f80df7cb383a9d5748894d5ca07f

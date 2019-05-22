@@ -13,7 +13,6 @@
 
 	</div><!-- #content -->
 
-<<<<<<< HEAD
 	<?php get_sidebar( 'footer' ); ?>
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
@@ -22,17 +21,6 @@
 			// Make sure there is a social menu to display.
 			if ( has_nav_menu( 'social' ) ) { ?>
 			<nav class="social-menu">
-=======
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'coffee' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Please' ), 'Team 24' );
-				?>
-			</a>
-			<span class="sep"> | </span>
->>>>>>> 04419d1f403253c58c5dcd7fc8988ab5cb1ac674
 				<?php
 					wp_nav_menu( array(
 						'theme_location' => 'social',
