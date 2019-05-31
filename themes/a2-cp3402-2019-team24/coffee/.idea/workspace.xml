@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="198915e4-d40a-4739-8e36-bcb0827b2beb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sass/variables-site/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/variables-site/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +117,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/dart-sass/sass.bat" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -154,12 +155,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559207880995</updated>
       <workItem from="1559207905972" duration="3009000" />
-      <workItem from="1559261087450" duration="1417000" />
+      <workItem from="1559261087450" duration="1866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4426000" />
+    <option name="totallyTimeSpent" value="4875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
