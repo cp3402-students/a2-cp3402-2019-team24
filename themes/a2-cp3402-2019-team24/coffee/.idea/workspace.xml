@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="198915e4-d40a-4739-8e36-bcb0827b2beb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/sass/variables-site/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/variables-site/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="1065" column="29" selection-start-line="1065" selection-start-column="29" selection-end-line="1065" selection-end-column="29" />
+              <caret line="1065" column="25" selection-start-line="1065" selection-start-column="25" selection-end-line="1065" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -155,12 +154,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559207880995</updated>
       <workItem from="1559207905972" duration="3009000" />
-      <workItem from="1559261087450" duration="1157000" />
+      <workItem from="1559261087450" duration="1417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4166000" />
+    <option name="totallyTimeSpent" value="4426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -218,7 +217,7 @@
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="1065" column="29" selection-start-line="1065" selection-start-column="29" selection-end-line="1065" selection-end-column="29" />
+          <caret line="1065" column="25" selection-start-line="1065" selection-start-column="25" selection-end-line="1065" selection-end-column="25" />
         </state>
       </provider>
     </entry>
