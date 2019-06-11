@@ -1,8 +1,8 @@
 # AWS
 FOLLOW LINK TO SUCCESSFULLY INSTALL AWS INSTANCES FOR PRODUCTION AND STAGING.
 (https://docs.bitnami.com/aws/how-to/get-started-wordpress-aws-marketplace-beginner/)
-1. Staging IP address: 52.62.120.41
-1. Production IP address:13.211.15.124
+1. Staging IP address: 13.236.191.137
+1. Production IP address:52.63.224.96
 # VCCW
 
 [![Build Status](https://travis-ci.org/vccw-team/vccw.svg?branch=master)](https://travis-ci.org/vccw-team/vccw)
